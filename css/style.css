@@ -138,7 +138,53 @@ footer{
 
 /* MOBIlE */
 @media (max-width: 480px) {
-    body{
-        background-color: aquamarine;
+    body {
+        padding: 20px;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    header span {
+        font-size: 24px;
+    }
+
+    .sombra {
+        font-size: 14vh;
+        transform: translate(-50%, -250%);
+    }
+
+    h1 {
+        font-size: 12vh;
+        transform: translate(0, 10%);
+    }
+
+    .pikachu {
+        transform: translate(-50%, -50%);
+        width: 49vh;
+    }
+
+    .container {
+        height: 100vh;
+        text-align: center;
+    }
+
+    .container h2 {
+        font-size: 40px;
+        transform: translate(0, 300px);
+    }
+
+    .container p {
+        display: none;
+    }
+
+    .container a {
+        width: 90%;
+        font-size: 40px;
+    }
+
+    footer {
+        display: none;
     }
 }
